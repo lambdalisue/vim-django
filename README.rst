@@ -1,7 +1,7 @@
 ****************
  django.vim
 ****************
-:VERSION: 0.1.0
+:VERSION: 0.1.1
 
 A simple compiler for executing Django Unittest on VIM. Useful to use with vim-makegreen_
 
