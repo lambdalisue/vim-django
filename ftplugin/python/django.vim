@@ -3,7 +3,7 @@ if !has('python')
     finish
 endif
 
-function s:DjangoAppMakeGreen(file)
+function! s:DjangoAppMakeGreen(file)
 python << EOF
 import os
 import vim
@@ -40,7 +40,7 @@ else:
 EOF
 endfunction
 
-function DjangoMakeGreen(value)
+function! DjangoMakeGreen(value)
     compiler django
     if a:value == "%"
         let s:file = expand("%")
